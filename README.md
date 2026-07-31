@@ -54,3 +54,31 @@ Deployment
 - Streamlit Community Cloud
 
 ---
+
+## 🏗 Project Architecture
+
+
+User
+↓
+Streamlit UI
+↓
+Quiz Manager
+↓
+Gemini API
+↓
+Adaptive Difficulty Engine
+↓
+Analytics Dashboard
+
+
+---
+
+## 🚀 Installation
+
+```bash
+git clone ...
+cd adaptive-ai-quiz
+
+pip install -r requirements.txt
+
+streamlit run app.py
