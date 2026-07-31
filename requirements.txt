@@ -1,0 +1,12 @@
+# requirements.txt - All the Python packages your app needs
+# The web framework that powers your app's interface
+streamlit==1.37.0
+
+# Google's AI model that generates quiz questions
+google-generativeai==0.7.0
+
+# Loads environment variables from a .env file (keeps your API key safe)
+python-dotenv==1.0.1
+
+# Creates beautiful charts to show your progress
+matplotlib==3.8.2
